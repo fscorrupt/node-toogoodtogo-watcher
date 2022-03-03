@@ -1,4 +1,7 @@
 FROM node:14
+LABEL maintainer=fscorrupt
+LABEL org.opencontainers.image.source https://github.com/fscorrupt/node-toogoodtogo-watcher
+
 WORKDIR /home/node/app
 COPY package*.json ./
 RUN npm ci --production
