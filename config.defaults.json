@@ -33,6 +33,10 @@
       "url": "http://push.example.com",
       "apptoken": "token",
       "priority": 5
+    },
+    "discord": {
+      "enabled": false,
+      "webhook": "https://discordapp.com/api/webhooks/XXX/XXX"
     }
   },
   "messageFilter": {
